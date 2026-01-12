@@ -123,7 +123,7 @@ const Login = () => {
   };
 
   const signUp = () => {
-    axios.post(`${process.env.REACT_APP_API_URL}/users`, {
+    axios.post(`${process.env.REACT_APP_API_URL}/users/registrations`, {
       registration: {
         email: email,
         password: password,
